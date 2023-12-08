@@ -1,0 +1,131 @@
+body {
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #3498db, #9b59b6, #3498db, #9b59b6);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #ffffff; /* White text color */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.signup-card {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signup-card{
+    background-color: aliceblue;
+    color: black;
+}
+.form-control {
+    border-radius: 4px;
+    padding: 15px; /* Adjust the padding as needed */
+}
+
+.btn-signup {
+    background-color: #2ecc71; /* Green color */
+    color: #ffffff;
+}
+
+.btn-signup:hover {
+    background-color: #27ae60; /* Slightly darker green on hover */
+}
+.log {
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #3498db, #9b59b6, #3498db, #9b59b6);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.login-card {
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 62px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 4px;
+    padding: 15px; /* Adjust the padding as needed */
+}
+.btn-login {
+    background-color: #5bc0de;
+    color: #ffffff;
+}
+
+.btn-login:hover {
+    background-color: #31b0d5;
+}
+#username{
+    width:276px;
+}
+.succ {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #2ecc71; /* Green background color */
+    color: #ffffff; /* White text color */
+}
+
+.success-message {
+    text-align: center;
+}
+
+.icon {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
